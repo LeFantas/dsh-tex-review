@@ -1,0 +1,5 @@
+# dsh-tex-review 的 bundle patch：把插件挂进 Loader 树。
+# id 是稳定身份；同一 profile 里不要再 insert 同 id。
+- insert:
+    - id: dsh-tex-review
+      name: 'dsh-tex-review'
